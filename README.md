@@ -56,8 +56,10 @@ GOOGLE_MAPS_API_KEY=your_google_maps_api_key_here`
 5. Make sure to replace your_openai_api_key_here and your_google_maps_api_key_here with your actual API keys. 
 Note: The .env file is used to securely store environment variables, and it should not be committed to the repository. Ensure that it is added to .gitignore to prevent accidental exposure of your keys.
 
-6. Optional - Set up the development environment: If you want to set up the project for development, you can install the development dependencies as follows:
+Optional - Set up the development environment: If you want to set up the project for development, you can install the development dependencies as follows:
 `pip install .[dev]`
+
+6. Run the src/main.py first and then run the tests/simulation_runner.py
 
 
 
