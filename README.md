@@ -30,7 +30,7 @@ Built on cloud and edge technologies, the agentic solution ensures high availabi
 
 - CrewAI: For intelligent task automation and agent-driven analysis.
 - OpenAI Models: For natural language understanding and advanced data processing.
-- TavilySearch: For real-time market and competitor data scraping.
+- Google Maps: For searching real-time location, hospitals, and emergency services.
 - LangChain: For enhancing the NLP pipeline, enabling sophisticated data extraction and analysis.
 
 ## Setup:
