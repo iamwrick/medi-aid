@@ -1,0 +1,50 @@
+emergency_response_system/
+│
+├── src/
+│   ├── __init__.py
+│   ├── agents/
+│   │   ├── __init__.py
+│   │   ├── emergency_detector.py
+│   │   ├── resource_coordinator.py
+│   │   └── medical_advisor.py
+│   │
+│   ├── config/
+│   │   ├── __init__.py
+│   │   └── settings.py
+│   │
+│   ├── data/
+│   │   ├── __init__.py
+│   │   ├── ambulances.json
+│   │   ├── hospitals.json
+│   │   └── medical_personnel.json
+│   │
+│   ├── models/
+│   │   ├── __init__.py
+│   │   ├── ambulance.py
+│   │   ├── hospital.py
+│   │   └── incident.py
+│   │
+│   ├── services/
+│   │   ├── __init__.py
+│   │   ├── data_manager.py
+│   │   ├── emergency_handler.py
+│   │   ├── geolocation.py
+│   │   └── notification.py
+│   │
+│   └── utils/
+│       ├── __init__.py
+│       ├── logger.py
+│       └── validators.py
+│
+├── tests/
+│   ├── __init__.py
+│   ├── conftest.py
+│   ├── test_data_manager.py
+│   ├── test_emergency_handler.py
+│   └── test_geolocation.py
+│
+├── .env.example
+├── .gitignore
+├── README.md
+├── requirements.txt
+└── setup.py

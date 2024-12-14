@@ -1,0 +1,53 @@
+{
+    "hospitals": [
+        {
+            "hospital_id": "HOSP-001",
+            "name": "Central Emergency Hospital",
+            "location": {
+                "lat": 40.7136,
+                "lng": -74.0061,
+                "address": "123 Emergency Drive, New York, NY 10001"
+            },
+            "emergency_department": {
+                "capacity": 50,
+                "current_occupancy": 32,
+                "wait_time_minutes": 45
+            },
+            "specialties": [
+                "trauma_center_level_1",
+                "cardiac_care",
+                "stroke_center"
+            ],
+            "resources": {
+                "available_icu_beds": 5,
+                "available_operating_rooms": 2,
+                "available_ventilators": 8
+            },
+            "helicopter_pad": true
+        },
+        {
+            "hospital_id": "HOSP-002",
+            "name": "Metropolitan Medical Center",
+            "location": {
+                "lat": 40.7590,
+                "lng": -73.9855,
+                "address": "456 Health Avenue, New York, NY 10002"
+            },
+            "emergency_department": {
+                "capacity": 35,
+                "current_occupancy": 28,
+                "wait_time_minutes": 60
+            },
+            "specialties": [
+                "trauma_center_level_2",
+                "cardiac_care"
+            ],
+            "resources": {
+                "available_icu_beds": 3,
+                "available_operating_rooms": 1,
+                "available_ventilators": 5
+            },
+            "helicopter_pad": false
+        }
+    ]
+}

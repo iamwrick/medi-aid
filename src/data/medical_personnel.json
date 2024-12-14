@@ -1,0 +1,41 @@
+{
+    "personnel": [
+        {
+            "id": "MD-001",
+            "type": "emergency_physician",
+            "specialization": "trauma",
+            "status": "on_duty",
+            "location": {
+                "hospital_id": "HOSP-001",
+                "department": "emergency"
+            },
+            "shift": {
+                "start": "2024-02-20T07:00:00Z",
+                "end": "2024-02-20T19:00:00Z"
+            },
+            "certifications": [
+                "ACLS",
+                "ATLS",
+                "PALS"
+            ]
+        },
+        {
+            "id": "NRS-001",
+            "type": "emergency_nurse",
+            "specialization": "triage",
+            "status": "on_duty",
+            "location": {
+                "hospital_id": "HOSP-001",
+                "department": "emergency"
+            },
+            "shift": {
+                "start": "2024-02-20T07:00:00Z",
+                "end": "2024-02-20T19:00:00Z"
+            },
+            "certifications": [
+                "BLS",
+                "ACLS"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "ambulances": [
+        {
+            "ambulance_id": "AMB-001",
+            "vehicle_type": "Type II",
+            "location": {
+                "lat": 40.7128,
+                "lng": -74.0060,
+                "last_updated": "2024-02-20T10:30:00Z"
+            },
+            "status": "available",
+            "crew": {
+                "paramedic": 2,
+                "emt": 1
+            },
+            "equipment": {
+                "defibrillator": true,
+                "ventilator": true,
+                "cardiac_monitor": true
+            },
+            "current_shift_start": "2024-02-20T07:00:00Z",
+            "current_shift_end": "2024-02-20T19:00:00Z"
+        },
+        {
+            "ambulance_id": "AMB-002",
+            "vehicle_type": "Type III",
+            "location": {
+                "lat": 40.7589,
+                "lng": -73.9851,
+                "last_updated": "2024-02-20T10:30:00Z"
+            },
+            "status": "responding",
+            "crew": {
+                "paramedic": 1,
+                "emt": 2
+            },
+            "equipment": {
+                "defibrillator": true,
+                "ventilator": true,
+                "cardiac_monitor": true
+            },
+            "current_shift_start": "2024-02-20T07:00:00Z",
+            "current_shift_end": "2024-02-20T19:00:00Z"
+        }
+    ]
+}
