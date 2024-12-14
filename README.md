@@ -59,8 +59,36 @@ Note: The .env file is used to securely store environment variables, and it shou
 Optional - Set up the development environment: If you want to set up the project for development, you can install the development dependencies as follows:
 `pip install .[dev]`
 
-6. Run the src/main.py first and then run the tests/simulation_runner.py
+6. Run the src/main.py first and then run the tests/simulation_runner.py. The simulation will try to replicate real-life emergency and the agentic framework will start to take actions. 
 
+
+## Results
+If everything went well, you will see under the reports directory/folder multiple reports are generated. The main report will be called something like simulation_summary_xxxxxxx_xxxx.txt
+- The summary report will show the Scenario and the Response
+  Incident Data:
+              {
+                "patient_age": 30,
+                "patient_gender": "male",
+                "chief_complaint": "severe shortness of breath",
+                "location": {
+                  "lat": 40.7829,
+                  "lng": -73.9654,
+                  "description": "50 85th St Transverse, New York, NY 10024, USA",
+                  "nearest_hospital": {
+                    "name": "NY-Presbyterian Hospital",
+                    "address": "1305 York Ave, New York",
+                    "rating": 4.3
+                  }
+                },
+                "vitals": {
+                  "heart_rate": 129,
+                  "blood_pressure_systolic": 113,
+                  "blood_pressure_diastolic": 81,
+                  "spo2": 90,
+                  "respiratory_rate": 17
+                }
+              }
+- The subsequent reports will share about the patient details and vital signs. 
 
 
 ## Author
