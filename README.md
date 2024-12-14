@@ -49,6 +49,7 @@ Built on cloud and edge technologies, the agentic solution ensures high availabi
 This will install the medi-aid package and all of its dependencies listed in the requirements.txt file.
 
 4. Create a .env file: In the project root directory, create a .env file to store your API keys. Add the following lines to the .env file:
+
 `OPENAI_API_KEY=your_openai_api_key_here
 GOOGLE_MAPS_API_KEY=your_google_maps_api_key_here`
 5. 
